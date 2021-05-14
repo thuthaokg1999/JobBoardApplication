@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+    <definition name="baseLayout" template="/WEB-INF/layout/base.jsp">
+        <put-attribute name="title" value="" />      
+        <put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
+        <put-attribute name="content" value="" />
+        <put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+    </definition>
+    <definition name="index" extends="baseLayout">
+        <put-attribute name="title" value="Home" />
+        <put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
+        <put-attribute name="content" value="/WEB-INF/jsp/index.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+    </definition>
+    <definition name="sign-in" template="/WEB-INF/jsp/sign-in.jsp">
+        <put-attribute name="title" value="Sign In" />
+    </definition>
+    <definition name="sign-up" template="/WEB-INF/jsp/sign-up.jsp">
+        <put-attribute name="title" value="Sign Up" />
+    </definition>
+    <definition name="news-feed" extends="baseLayout">
+        <put-attribute name="title" value="News feed" />
+        <put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
+        <put-attribute name="content" value="/WEB-INF/jsp/news-feed.jsp" />
+    </definition>
+    <definition name="employee-update-info" extends="baseLayout">
+        <put-attribute name="title" value="Employee Update Information" />
+        <put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
+        <put-attribute name="content" value="/WEB-INF/jsp/employee-update-info.jsp" />
+    </definition>
+    <definition name="employer-update-info" extends="baseLayout">
+        <put-attribute name="title" value="Employer Update Information" />
+        <put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
+        <put-attribute name="content" value="/WEB-INF/jsp/employer-update-info.jsp" />
+    </definition>
+    <definition name="post-detail" extends="baseLayout">
+        <put-attribute name="title" value="Post Detail" />
+        <put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
+        <put-attribute name="content" value="/WEB-INF/jsp/post-detail.jsp" />
+    </definition>
+    <definition name="apply" extends="baseLayout">
+        <put-attribute name="title" value="Apply" />
+        <put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
+        <put-attribute name="content" value="/WEB-INF/jsp/apply.jsp" />
+    </definition>
+    <definition name="list-applyer" extends="baseLayout">
+        <put-attribute name="title" value="List Applyer" />
+        <put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
+        <put-attribute name="content" value="/WEB-INF/jsp/list-applyer.jsp" />
+    </definition>
+    <definition name="info-applyer" extends="baseLayout">
+        <put-attribute name="title" value="Info Applyer" />
+        <put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
+        <put-attribute name="content" value="/WEB-INF/jsp/info-applyer.jsp" />
+    </definition>
+    <definition name="employer-info" extends="baseLayout">
+        <put-attribute name="title" value="Info Employer" />
+        <put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
+        <put-attribute name="content" value="/WEB-INF/jsp/employer-info.jsp" />
+    </definition>
+    <definition name="add-info-employer" extends="baseLayout">
+        <put-attribute name="title" value="Add Info Employer" />
+        <put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
+        <put-attribute name="content" value="/WEB-INF/jsp/add-info-employer.jsp" />
+    </definition>
+    <definition name="add-info-employee" extends="baseLayout">
+        <put-attribute name="title" value="Add Info Employee" />
+        <put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
+        <put-attribute name="content" value="/WEB-INF/jsp/add-info-employee.jsp" />
+    </definition>
+    <definition name="list-post" extends="baseLayout">
+        <put-attribute name="title" value="List Post" />
+        <put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
+        <put-attribute name="content" value="/WEB-INF/jsp/list-post.jsp" />
+    </definition>
+    <definition name="search-applyer" extends="baseLayout">
+        <put-attribute name="title" value="Tìm kiếm ứng viên" />
+        <put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
+        <put-attribute name="content" value="/WEB-INF/jsp/search-applyer.jsp" />
+    </definition>
+    <definition name="employee-info" extends="baseLayout">
+        <put-attribute name="title" value="Employee Infomation" />
+        <put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
+        <put-attribute name="content" value="/WEB-INF/jsp/employee-info.jsp" />
+    </definition>
+    <definition name="post" extends="baseLayout">
+        <put-attribute name="title" value="Post" />
+        <put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
+        <put-attribute name="content" value="/WEB-INF/jsp/post.jsp" />
+    </definition>
+    <definition name="list-company" extends="baseLayout">
+        <put-attribute name="title" value="List Companies" />
+        <put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
+        <put-attribute name="content" value="/WEB-INF/jsp/list-company.jsp" />
+    </definition>
+    <definition name="company-detail" extends="baseLayout">
+        <put-attribute name="title" value="Company Detail" />
+        <put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
+        <put-attribute name="content" value="/WEB-INF/jsp/company-detail.jsp" />
+    </definition>
+    <definition name="news-feed-suggest" extends="baseLayout">
+        <put-attribute name="title" value="News feed" />
+        <put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
+        <put-attribute name="content" value="/WEB-INF/jsp/news-feed-suggest.jsp" />
+    </definition>
+    <definition name="statis" extends="baseLayout">
+        <put-attribute name="title" value="Thống kê báo cáo" />
+        <put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
+        <put-attribute name="content" value="/WEB-INF/jsp/statis.jsp" />
+    </definition>
+</tiles-definitions>

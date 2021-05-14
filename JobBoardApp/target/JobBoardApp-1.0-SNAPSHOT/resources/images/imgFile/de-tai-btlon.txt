@@ -1,0 +1,37 @@
+ĐỀ TÀI 1: Quản lý phòng mạch tư
+	- Quản lý thuốc (thêm/xoá/sửa/tìm kiếm)
+	- Bệnh nhân đăng ký lịch khám
+	- Bác sĩ ra toa thuốc cho bệnh nhân
+	- Xem lịch sử khám và bệnh của bệnh nhân (linh hoạt theo khoảng thời gian)
+	- Thống kê báo cáo số lượng bệnh nhân đến khám, doanh thu linh hoạt theo tháng, quý, năm (kết hợp vẽ biều đồ bằng chartjs/googlejs)
+
+ĐỀ TÀI 2: Quản lý du lịch
+	- Quản lý tour du lịch (thêm/xoá/sửa/tìm kiếm)
+	- Khách hàng đặt tour du lịch
+	- Tra cứu tour du lịch theo giá, chuyến đi, thời gian đi.
+	- Trang tin tức du lịch (admin được thêm/xoá/cập nhật tin tức), cho phép người dùng comment/like trên tin tức du lịch.
+	- Thống kế báo cáo số lượng tour du lịch/doanh thu linh hoạt theo tháng, quý và năm (kết hợp vẽ biểu đồ bắng chartjs hoặc google js)
+	- * (Thêm: cho phép thanh toán trực tuyến)
+
+ĐỀ TÀI 3: Quản lý đặt vé xe khách
+	- Quản lý chuyến xe (thêm/xoá/sửa/tìm kiếm)
+	- Khách hàng đặt vé xe khách
+	- Nhân viên bán vé cho khách hàng
+	- Tra cứu chuyến xe theo địa điểm, thời gian đi
+	- Trang phản hồi của khách hàng về chuyến đi.
+	- Thống kê báo cáo mật độ chuyến xe theo tuyến, thống kê doanh thu linh hoạt theo tháng, quý và năm (kết hợp vẽ biểu đồ bằng chartjs hoặc googlejs)
+	- * (Thêm: cho phép thanh toán trực tuyến)
+
+ĐỀ TÀI 4: Quản lý nhà hàng tiệc cưới
+	- Quản lý nhân viên nhà hàng (thêm/xoá/sửa/tìm kiếm).
+	- Khách hàng đặt tiệc cưới, bao gồm đặt các dịch vụ liên quan.
+	- Tra cứu tiệc cưới theo sảnh, giá, ngày tổ chức.
+	- Trang nhận phản hồi của khách hàng về tổ chức tiệc, nhân viên.
+	- Thống kê báo cáo mật độ tiệc cưới, thống kê doanh thu linh hoạt theo tháng, quý và năm (kết hợp vẽ biểu đồ bằng chartjs hoặc googlejs)
+	- * (Thêm: cho phép thanh toán trực tuyến)
+
+ĐỀ TÀI 5: Hệ thống giới thiệu việc làm
+	- Nhà tuyển dụng đăng ký thông tin nhà tuyển dụng, đăng tin tuyển dụng, tìm kiếm ứng viên theo nhiều tiêu chí.
+	- Ứng viên: cập nhật thông tin cá nhân, upload CV, gợi ý nhà tuyển dụng dựa trên những thông tin lĩnh vực sinh viên đang làm việc, tìm kiếm nhà tuyển dụng, tìm kiếm việc theo nhiều tiêu chí, nộp đơn ứng tuyển đến nhà tuyển dụng.
+	- Thống kê, báo cáo thống kê sinh viên nộp đơn ứng tuyển trên hệ thống hàng quý, hàng năm (kết hợp vẽ biểu đồ bằng chartjs hoặc googlejs).
+

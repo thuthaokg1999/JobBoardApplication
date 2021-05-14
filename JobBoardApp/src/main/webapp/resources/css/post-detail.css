@@ -1,0 +1,406 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 26, 2021, 9:02:05 AM
+    Author     : Dy
+*/
+.job-detail-header{
+    padding: 10px 20px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #eaeff5;
+    border-radius: 6px;
+}
+.content-job-detail{
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+.detail-wrapper{
+    border-radius: 6px;
+    border: 1px solid #eaeff5;
+    margin-bottom: 40px;
+}
+.detail-wrapper-header{
+    padding: 14px 20px;
+    border-bottom: 1px solid #eaeff5;
+}
+.detail-wrapper-header h4{
+    font-size: 18px;
+}
+.detail-wrapper-body{
+    padding: 20px;
+}
+.detail-list, .list, .list-detail-candidate{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.detail-list li{
+    width: 100%;
+    margin: 0 0 12px;
+    position: relative;
+    line-height: 22px;
+    font-size: 16px;
+    padding-left: 23px;
+}
+.detail-list li:before{
+    position: absolute;
+    left: 0;
+    display: block;
+    top: 13px;
+    width: 10px;
+    height: 1px;
+    content: "";
+    background: #677782;
+}
+.widget{
+    margin: 0 0 30px;
+    border: 1px solid #eaeff5;
+    padding: 0 25px 25px;
+    border-radius: 6px;
+
+    position: relative;
+    background: transparent;
+}
+.widget-title{
+    font-size: 17px;
+    padding: 15px 0;
+    position: relative;
+    border-bottom: 1px solid #eaeff5;
+    margin: 0;
+}
+
+.widget-descript{
+    font-size: 15px;
+    font-weight: 400;
+    color: #677782;
+    display: flex;
+}
+.widget-descript i{
+    color: #FFD21E;
+    margin-right: 10px;
+}
+.job-detail{
+    padding-top: 20px;
+}
+.list li{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.list li .li-icon{
+    color: #FFD21E;
+    font-size: 25px;
+    float: left;
+    width: 10%;
+}
+.list li .details{
+    padding-left: 15px;
+    overflow: hidden;
+}
+.list li .text{
+    font-size: 16px;
+    color: #334e6f;
+    line-height: 1.4;
+}
+.list li .value{
+    font-size: 15px;
+    color: #677782;
+}
+.widget-img{
+    margin-top: 20px;    
+    /*    margin-left: 20%;*/
+    text-align: center;
+    /*    width: 80%;*/
+}
+.widget-img img{
+    max-width: 45%;
+}
+.widget-titles{
+    margin-top: 15px;
+    text-align: center;
+}
+.widget-titles h6{
+    font-size: 20px;
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: 600;
+    line-height: 1.3;
+    color: #334e6f; 
+}
+.list-detail-candidate li:first-child{
+    font-size: 15px;
+    font-weight: 400;
+    color: #677782;
+    width: 100%;
+    float: left;
+}
+.list-detail-candidate li{
+    font-size: 15px;
+    font-weight: 400;
+    color: #677782;
+    width: calc(100% /3);
+    float: left;
+}
+
+.job-position, .job-phone, .job-email, .job-date{
+    display: flex;
+}
+.list-detail-candidate i{
+    color: #FFD21E;
+    margin-right: 10px;
+}
+.list-detail-candidate{
+    margin-top: 20px;
+}
+.widget-apply{
+    width: 100%;
+    position: relative;
+
+    /*padding: 20px 20px 20px;*/
+    border-radius: 10px;
+    background: #ffc107;
+    border-color: #ffc107;    
+    font-size: 13px;
+    line-height: 16px;
+    position: relative;
+    padding: 15px 30px;
+    text-transform: uppercase;
+}
+.widget-container-apply{
+    text-align: center;
+}
+.widget-container-apply-button{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+}
+.widget-container-apply a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+/*LIST-APPLYER*/
+.widget-applyers{
+    margin-bottom: 50px;
+}
+.elm-applyer-title{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.apllyer-item{
+    border-bottom: 1px solid #eaeff5;
+
+    position: relative;
+    z-index: 1;
+    transition: all 0.35s ease-in-out 0s;
+    background: #fff;
+    padding: 20px 0;
+}
+.apllyer-item:hover{
+    background: #f4f5f7;
+}
+.apllyer-item .left-applyer{
+    width: 25%;
+}
+.apllyer-item .applyers > *{
+    padding: 0 15px;
+}
+.applyers{
+    display: flex;
+}
+.flex-middle{
+    display: flex;
+    align-items: center;
+}
+.apllyer-item .employers-icon{
+    width: 50px;
+    padding-right: 10px;
+}
+.apllyer-item .employers-icon i{
+    font-size: 35px;
+    color: #FFD21E;
+}
+.apllyer-item .employers-name{
+    font-size: 15px;
+    margin: 0 0 5px;
+}
+.applyer-email{
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+.applyer-email h2{
+    font-size: 15px;
+    margin: 0 10px 5px;
+}
+.applyer-email i{
+    font-size: 15px;
+    color: #FFD21E;
+}
+.applyer-cv{
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+.applyer-cv i{
+    font-size: 15px;
+    color: #FFD21E;
+    margin-right: 10px;
+}
+.btn-see{
+    padding: 12px 20px;
+    border-radius: 50px;
+
+    background-color: #FFD21E;
+    color: #000000;
+    font-size: 13px;
+    line-height: 16px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.btn-see:focus{
+    box-shadow: none !important;
+    outline: none;
+}
+.applyer-see{
+    width: 15%;
+}
+
+/*INFO-APPLYER*/
+.info-applyers{
+    margin-top: 50px;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.fullname{
+    margin: 0 0 20px;
+}
+.fullname .cmb-th{
+    width: 100%;
+    padding: 0 0 8px;
+
+    color: #222;
+    float: left;
+    font-weight: 600;
+    vertical-align: top;
+}
+.fullname .cmb-th label{
+    display: block;
+    padding: 5px 0;
+
+    color: #677782;
+    font-weight: 500;
+    margin: 0;
+}
+.cmb-td{
+    line-height: 1.3;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.fullname .cmb-th + .cmb-td {
+    width: 100%;
+    padding: 0;
+}
+.cmb-th+.cmb-td {
+    float: left;
+}
+.fullname input[type="text"],input[type="email"],input[type="file"]{
+    margin: 0 !important;
+    height: 45px;
+    border-radius: 6px;
+    border-color: #dde6ef;
+    /*border: 1px solid #dde6ef;*/
+    padding: 6px 12px;
+    font-size: 15px;
+    background: white !important;
+    width: 100% !important;
+    color: #6b7c8a;
+    box-shadow: none;
+}
+
+.cmb-td-cv{
+    line-height: 1.3;
+    background: white !important;
+    width: 100% !important;
+    vertical-align: middle;
+    height: 45px;
+    border-radius: 6px;
+    border-color: #dde6ef;
+    border: 1px solid #dde6ef;
+    align-items: center;
+    padding: 13px 12px;
+}
+.fullname .cmb-th + .cmb-td-cv {
+    width: 100%;
+}
+.cmb-th+.cmb-td-cv {
+    float: left;
+}
+.cmb-td-cv a{
+    margin: 0 !important;
+    font-size: 15px;
+    width: 100% !important;
+    color: #6b7c8a;
+}
+.fullname input[type="text"]:focus,input[type="email"]:focus,input[type="file"]:focus,input[type="number"]:focus{
+    border: 1px solid #dde6ef;
+    outline: none !important;
+    box-shadow:none !important;
+}
+
+/*APPLY*/
+.show-info-app{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.widget-info-applyers{
+    padding-top: 25px;
+}
+.widget-app-titles{
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: 20px 0;
+}
+.widget-app-titles h2{
+    font-size: 20px;
+}
+.widget-app-contents{
+    margin-top: 20px;
+}
+.widget-apply-footer{
+    margin-top:20px;
+}
+.applying{
+    text-align: center;
+}
+.applying .btn-applying{
+    margin: 0 !important;
+    height: 50px;
+    border-radius: 10px;
+    border-color: #ffc107;
+    padding: 6px 12px;
+    font-size: 15px;
+    background: #ffc107 !important;
+    width: 30% !important;
+    color: white;
+    box-shadow: none;
+    text-transform: uppercase;
+}
+.fullname label{
+    font-size: 15px;
+    color: #6b7c8a;
+}
+.container-ifo-titles{
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    /*padding: 20px 0;*/
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.container-ifo-titles h2{
+    font-size: 25px;
+}

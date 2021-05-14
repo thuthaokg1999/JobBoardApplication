@@ -1,0 +1,57 @@
+.title {
+    color: gold;
+}
+.frm{
+    margin: 10px;
+    padding: 15px;
+    height: max-content;
+}
+.col-left{
+    background-image: url("../images/signin-background02.png");
+    position: absolute;
+    margin-left: 0px;
+    size: auto;
+    height: 100%;
+    border-radius: 5px 0px 0px 5px;
+}
+.col-right{
+    padding-bottom: 10px;
+}
+.all {
+    border-radius: 5px;
+    margin-top: 20px; 
+    box-shadow:10px 10px 20px goldenrod;
+    height:max-content; 
+    height: 600px;
+}
+.body{
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+.btn-btn{
+    font-size: 25px;
+    color: black;
+}
+.group-btn{
+    margin-top: 50px;
+}
+.btn-uv{
+    margin-top: 20px;
+}
+.btn-nut{
+    margin-top: 20px;
+}
+/*#employerForm{ 
+    display: none;
+    margin-top: 20px; 
+    margin-bottom: 10px;
+}
+#employeeForm{ 
+    display: none;
+    margin-top: 20px; 
+    margin-bottom: 10px;
+}
+.btn-b-home{ 
+}*/

@@ -1,0 +1,202 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 17, 2021, 3:00:36 AM
+    Author     : Admin
+*/
+.nav-item:hover{
+    border-bottom: 1px solid tomato;
+}
+.body{
+    background-color: white;
+    padding: 15px;
+}
+/*.body-left{
+    border: 1px solid #FFD21E;
+}
+.body-right{
+    border: 1px solid #FFD21E;
+}*/
+.body-right-title{
+    padding: 15px;
+}
+.body-card{
+    background-color: white;
+}
+.card-sub-item {
+    display: inline-block;
+}
+.card-img{
+    width: 200px;
+    height: 200px;
+}
+
+.subcard-img{
+    width: 22px;
+    height: 22px;
+}
+#fulltimeArea, #parttimeArea, #internArea{
+    display: none;
+}
+.btn-nut{
+    margin-top: 15px;
+}
+
+.btn-nut-search{
+    margin-top: 15px;
+}
+.form-group{
+    padding: 10px 20px 10px 10px;
+}
+.border-jobs-search{
+    border: 1px solid rgba(0,0,0,.125);
+    margin-top: 18px;
+}
+
+.card-text a{
+    margin-bottom: 1rem;
+    color: #212529;
+    padding-left: 10px;
+}
+.card-text a:hover{
+    text-decoration: none;
+    color: #212529;
+}
+
+.card-text p{
+    padding-left: 10px;
+}
+
+a.card-body-name{
+    color: #212529;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.card-body > a:hover{
+    text-decoration: none;
+    color: #FFD21E;
+}
+.card-text{
+    display: flex;
+}
+
+
+/*COMPANY*/
+.elm-card{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.elm-card h2{
+    font-weight: 600;
+    font-size: 45px;
+    letter-spacing:1.5px;
+}
+.elm-card h6{
+    font-size: 15px;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #677782;
+}
+.elmemts-card{
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+}
+.elmemts-card .elm-card-titles{
+    display: flex;
+    /* margin-top: 20px; */
+    padding: 10px 0;
+}
+.elm-company-body{
+
+    margin-bottom: 30px;
+
+    box-shadow: 0 5px 25px 0 rgb(41 128 185 / 15%);
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+    transition: all 0.35s ease-in-out 0s;
+    background: #fff;
+}
+.elm-company-image{
+    width: 100%;
+    height: 220px;
+    margin: 10px 0;
+    text-align: center;
+}
+.elm-company-image img.imgLogo{
+    width: 220px;
+    height: 100%;
+}
+.elm-company-name{
+    padding: 20px 10px;
+    word-break: break-word;
+}
+.elm-company-name h5{
+    font-size: 18px;    
+    font-weight: 600;
+}
+.elm-company-name h5 a{
+    color: black !important;
+}
+.companyLogo{
+    padding: 0 47px;
+    text-align: center;
+}
+.elm-company-name h5 a:hover{
+    color: #FFD21E;
+    text-decoration: none;
+}
+
+.search-company{
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 25px;
+    margin-right: 1em;
+    border: 1px solid rgba(0,0,0,.125); 
+}
+input.search-ccom{
+    border: none;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+button.search-employer{
+    border: none;
+    padding: 0px 5px 0px 5px;
+    color: gray !important;
+    background-color: #fff !important;
+}
+button.search-employer:focus{
+    outline: none;
+}
+.search-employer{
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+input[type="search"]:focus{
+    outline: none;
+    border: none;
+    box-shadow: none !important;
+}
+.search-employer i{
+    color: #FFD21E;
+}
+
+
+.sugInsideDiv{
+    margin-top: 35px; margin-left: 30px;  min-height: max-content; margin-bottom: 30px;
+}
+
+.sugChoices{
+    min-width: 346px;
+}
+.sugMajor{
+    padding-left: 0px; padding-top: 0px;
+}
